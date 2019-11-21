@@ -11,7 +11,7 @@ var bgImage = new Image();
 bgImage.onload = function () {
 	bgReady = true;
 };
-bgImage.src = "images/background.png";
+bgImage.src = "background.png";
 
 // 载入英雄图像
 var heroReady = false;
@@ -19,16 +19,16 @@ var heroImage = new Image();
 heroImage.onload = function () {
 	heroReady = true;
 };
-heroImage.src = "images/1.png";
+heroImage.src = "1.png";
 
 var heroImage1 = new Image();
-heroImage1.src = "images/1.png";
+heroImage1.src = "1.png";
 var heroImage2 = new Image();
-heroImage2.src = "images/2.png";
+heroImage2.src = "2.png";
 var heroImage3 = new Image();
-heroImage3.src = "images/3.png";
+heroImage3.src = "3.png";
 var heroImage4 = new Image();
-heroImage4.src = "images/4.png";
+heroImage4.src = "4.png";
 
 // 载入怪兽图像
 var monsterReady = false;
@@ -36,7 +36,7 @@ var monsterImage = new Image();
 monsterImage.onload = function () {
 	monsterReady = true;
 };
-monsterImage.src = "images/monster.png";
+monsterImage.src = "monster.png";
 
 // 设置参数
 var hero = {
